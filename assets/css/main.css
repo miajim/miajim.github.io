@@ -2795,6 +2795,34 @@ ul.actions.fit.stacked {
   }
 }
 
+/* Links */
+#links {
+  display: block;
+  position: absolute;
+  left: 1.5em;
+  top: 0;
+  z-index: 30;
+}
+
+ul.links {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.links li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+ul.links li:last-child {
+  padding-right: 0;
+}
+
+ul.links li .links:before {
+  font-size: 2.25em;
+}
+
 /* Icons */
 #icons {
   display: block;
